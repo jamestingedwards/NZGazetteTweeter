@@ -4,11 +4,11 @@ Applies [feedr](https://github.com/housed/feedr) to generate a Twitter feed of n
 
 Currently works to get feeds, but is likely to dump lots of tweets at once in a way that we might not want.
 
-# 15/01/2018 - giving each catergory a different Tweet template
+# 15/01/2018 - giving each category a different Tweet template
 Gazette categories sometimes have the useful information in the title, and other times it's in the description. This info below will try to determine which is which. 
 
 | Code   | Category   | Title/Desc in Tweet | T== D= 1|
-|-------|-------------|---------------------|
+|-------|-------------|---------------------|------|
 |aa| Appointment-Release of Administrators| Title | 0 |
 |gs |General Section|
 |cb |Cessation of Business in New Zealand| Title|0|
