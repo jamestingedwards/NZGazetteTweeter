@@ -13,19 +13,19 @@ Gazette categories sometimes have the useful information in the title, and other
 |gs |General Section| Title| 0|
 |cb |Cessation of Business in New Zealand| Title|0|
 |is |Incorporated Societies| Title| 3
-|am |General Meetings
+|am |General Meetings| RETIRED | 4|
 |al |Appointment-Release of Liquidators| Title |0 |
 |vr |Vice Regal| Title| 0|
-|ar |Appointment-Release of Receivers & Managers| Title
+|ar |Appointment-Release of Receivers & Managers| Title| 0|
 |au |Authorities-Other Agencies of State| Useless| 3|
 |aw |Applications for Winding up-Liquidations| Description|1 |
-|vw |Winding up-Liquidations
+|vw |Winding up-Liquidations| RETIRED| 4|
 |go |Departmental| Title| 3|
 |gn |General Notices| Description| 1|
-|cu |Customs
+|cu |Customs| RETIRED| 4|
 |ct |Charitable Trusts| Title | 3 | Note that this is a tricky one, but too much info is in desc to be useful. 
 |ps |Parliamentary| Title| 0|
-|rs |Regulation Summary
+|rs |Regulation Summary| RETIRED| 4|
 |ln |Land Notices| Title| 0|
 |pb |Private Bills| Title| 0|
 |lt |Land Transfers-Joint Family Homes| completely useless, too much text| na|
@@ -36,6 +36,12 @@ Gazette categories sometimes have the useful information in the title, and other
 |ds |Removals| Title| 0|
 |md |Meetings-Last Dates for Debts & Claims| Title| 0|
 |ot |Other| Description| 1|
+
+On attributes:
+0: Clear use of title attribute
+1: clear use of dexcription attribute
+3: need this to be QA'd as uncertain
+4: Retired category no longer in use, ignore from project. 
 
 # Feedr project self-description: 
 
