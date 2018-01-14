@@ -7,35 +7,35 @@ Currently works to get feeds, but is likely to dump lots of tweets at once in a 
 # 15/01/2018 - giving each category a different Tweet template
 Gazette categories sometimes have the useful information in the title, and other times it's in the description. This info below will try to determine which is which. 
 
-| Code   | Category   | Title/Desc in Tweet | T== D= 1|
+| Code   | Category   | Attribute | T=0 D= 1 3= ambiguous|
 |-------|-------------|---------------------|------|
 |aa| Appointment-Release of Administrators| Title | 0 |
-|gs |General Section|
+|gs |General Section| Title| 0|
 |cb |Cessation of Business in New Zealand| Title|0|
-|is |Incorporated Societies
+|is |Incorporated Societies| Title| 3
 |am |General Meetings
 |al |Appointment-Release of Liquidators| Title |0 |
-|vr |Vice Regal
+|vr |Vice Regal| Title| 0|
 |ar |Appointment-Release of Receivers & Managers| Title
-|au |Authorities-Other Agencies of State
+|au |Authorities-Other Agencies of State| Useless| 3|
 |aw |Applications for Winding up-Liquidations| Description|1 |
 |vw |Winding up-Liquidations
-|go |Departmental
-|gn |General Notices| DEscription| 1|
+|go |Departmental| Title| 3|
+|gn |General Notices| Description| 1|
 |cu |Customs
-|ct |Charitable Trusts| Title | 0 | Note that this is a tricky one, but too much info is in desc to be useful. 
-|ps |Parliamentary
+|ct |Charitable Trusts| Title | 3 | Note that this is a tricky one, but too much info is in desc to be useful. 
+|ps |Parliamentary| Title| 0|
 |rs |Regulation Summary
-|ln |Land Notices
-|pb |Private Bills
-|lt |Land Transfers-Joint Family Homes
-|pn |Partnerships
-|dl |Delegated Legislation
-|fs |Friendly Societies and Credit Unions| Description|1| Note: this is not consistent
+|ln |Land Notices| Title| 0|
+|pb |Private Bills| Title| 0|
+|lt |Land Transfers-Joint Family Homes| completely useless, too much text| na|
+|pn |Partnerships| Title| 0|
+|dl |Delegated Legislation| Description| 1|
+|fs |Friendly Societies and Credit Unions| Description|3| Note: this is not consistent
 |ba |Bankruptcies| Description| 1|
-|ds |Removals
-|md |Meetings-Last Dates for Debts & Claims
-|ot |Other
+|ds |Removals| Title| 0|
+|md |Meetings-Last Dates for Debts & Claims| Title| 0|
+|ot |Other| Description| 1|
 
 # Feedr project self-description: 
 
